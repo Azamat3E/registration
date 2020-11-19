@@ -1,4 +1,4 @@
-package com.example.lesson0;
+package com.example.registrdesing;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -60,10 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     / Integer.parseInt(number2.getText().toString());
 
         }
-
-
-
-
 
         getResults.setText("Result: " + res);
     }
